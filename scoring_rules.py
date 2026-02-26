@@ -25,9 +25,9 @@ def get_placement_points(round_name):
     if "1st Place Match" in round_name:
         return 16.0, 12.0
     elif "3rd Place Match" in round_name:
-        return 10.0, 9.0
+        return 9.0, 7.0
     elif "5th Place Match" in round_name:
-        return 7.0, 6.0
+        return 5.0, 3.0
     
     # Not a placement match
     return 0.0, 0.0
